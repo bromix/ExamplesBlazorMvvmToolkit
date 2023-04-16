@@ -9,6 +9,7 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddScoped<WeatherViewModel>();
 builder.Services.AddScoped<WeatherViewModel2>();
+builder.Services.AddScoped<WeatherViewModel3>();
 
 var app = builder.Build();
 
